@@ -1,0 +1,43 @@
+#text{
+    color: red;
+    font: 40px Tahoma bold;
+    text-align: center;
+}
+
+#choiceMenu{
+    width: 100px;
+}
+
+#confirm:hover{
+    width: 100px;
+    background-color: rgba(186, 231, 61, 0.5);
+    color: rgb(76, 0, 255);
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px dotted red;
+}
+
+#showPic{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#result{
+    margin-top: 0px;
+    width: 600px;
+}
+
+.hide {
+    opacity: 0;
+    transform: scale(1.5) rotate(360deg);
+  }
+
+#openingAnimation{
+    width: 300px;
+    transition: all 2s ease;
+    position: absolute;
+}
